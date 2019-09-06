@@ -18,6 +18,10 @@ In this practical session, we focus on writing our initial Java program, the "He
 
 ## Slack
 
+Before beginning the practical session, log into our shared [Slack](https://cmpsc100Fall2019.slack.com) workspace and navigate to the `#practicals` channel. Remain in this channel for the duration of the session to accept the assignment and ask and answer questions.
+
 ## GitHub
+
+An individualized version of this assignment is available on our GitHub Classroom platform. The link for accepting your individual repository is in the `#practicals` channel of our [Slack](#slack).
 
 ## The "Hello,World!" Java Program
