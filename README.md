@@ -1,4 +1,4 @@
-![https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02.svg?branch=master](THE CODE MUST RUN!)
+[![THE CODE MUST RUN](https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02.svg?branch=master)](https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02)
 
 # CMPSC 100-03 Practical Session 2
 
@@ -35,7 +35,7 @@ An individualized version of this assignment is available on our GitHub Classroo
 
 ```
 choco install jdk8
-``` 
+```
 
 * Note that the install may take some time, during which you may continue with writing your Java code [using the instructions below](#the-helloworld-java-program).
 
