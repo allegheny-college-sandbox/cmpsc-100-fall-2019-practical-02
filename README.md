@@ -14,7 +14,7 @@ In this practical session, we focus on writing our initial Java program, the "He
 
 * [Slack](#slack)
 * [Github](#github)
-* [The "Hello, World!" Java program](#the-hello-world!-java-program)
+* [The "Hello, World!" Java program](#the-helloworld-java-program)
 
 ## Slack
 
