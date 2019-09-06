@@ -24,4 +24,44 @@ Before beginning the practical session, log into our shared [Slack](https://cmps
 
 An individualized version of this assignment is available on our GitHub Classroom platform. The link for accepting your individual repository is in the `#practicals` channel of our [Slack](#slack).
 
+## General note on style
+
+This course follows the guidance of the [Java Google Style Guide](https://google.github.io/styleguide/javaguide.html). Bookmark this page, as it will be helpful to you as you begin to write code on your own. Though many of the agreements here may seem arbitrary, the style guidelines provided will create code which satisfies two goals of writing code, that it be:
+* Legible
+* Understandable
+
+While you may not yet fully grasp all of the sections and what they mean, as we learn more you will recognize and be able to interpret how to best implement new syntax.
+
 ## The "Hello,World!" Java Program
+
+### Creating a program
+
+- [ ] In a text editor (many of you downloaded [Atom](https://atom.io)), create a new file and save it under the name `HelloWorld.java`
+* `*.java` files represent raw Java source code that is not compiled. When writing new Java programs, create your files as `*.java` files.
+- [ ] Open the file with the following code:
+```java
+public class HelloWorld{
+
+}
+```
+* What does this code represent? What exactly are we declaring here?
+- [ ] In the space between the opening `{` and closing `}`, continue with the following code, indented by two spaces:
+```java
+  public static void main(String[] args){
+  
+  }
+```
+* This code represents the next building block of a Java program. What is it called?
+- [ ] In between the opening `{` and closing `}` brackets of the `main` declaration, type the following statement, indented two additional spaces:
+```java
+    System.out.println("Hello, World!");
+```
+
+Your final program should look something like this:
+```java
+public class HelloWorld{
+  public static void main(String[] args){
+    System.out.println("Hello, World!");
+  }
+}
+```
