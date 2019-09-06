@@ -35,7 +35,7 @@ An individualized version of this assignment is available on our GitHub Classroo
 
 ```
 choco install jdk8
-```
+``` 
 
 * Note that the install may take some time, during which you may continue with writing your Java code [using the instructions below](#the-helloworld-java-program).
 
