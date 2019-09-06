@@ -1,3 +1,5 @@
+![https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02.svg?branch=master](THE CODE MUST RUN!)
+
 # CMPSC 100-03 Practical Session 2
 
 In this practical session, we focus on writing our initial Java program, the "Hello, World!"
@@ -100,7 +102,7 @@ public class HelloWorld {
 
 Your final program should look something like this:
 ```java
-class HelloWorld {
+public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
@@ -110,6 +112,39 @@ class HelloWorld {
 ### Running your program
 
 - [ ] In a terminal window, `cd` or navigate to the folder where you saved your work.
+- [ ] Type `ls` to list the contents of the directory.
+* Make a note of the files in the directory.
 - [ ] Type `java HelloWorld.java`
 * What happens? If you encounter an error, call a TL or the professor over to help figure out what is happening.
 - [ ] Type `ls` to list the contents of the directory.
+* Did anything change?
+
+This is because we used one side of the Java _compiler_ to run our program; it merely _interpreted_ our instructions and demonstrated that the program works (or productively didn't). In either of these cases, we have actionable information.
+
+#### If your build worked (without errors)
+
+- [ ] In your open terminal window, type `javac HelloWorld.java`.
+* What happens? If you encounter an error, call a TL or the professor over to help figure out what is happening.
+- [ ] Type `ls` to list the contents of the directory.
+* Did anything change?
+
+There should be a new file called `HelloWorld.class`. This is Java _bytecode_, a "compiled" version of your program ready to run in what developers refer to as a "staging" environment.
+
+- [ ] You can test your binary by typing `java HelloWorld` in the terminal window.
+* If you receive the expected output, congratulations! You're done developing your code for this exercise. Proceed on.
+* If you encountered errors, call a TL or the professor over to discuss and figure out what is happening.
+
+#### If the build "failed"
+
+- [ ] Review the steps for creating the "Hello, World" program [above](#the-helloworld-java-program) and call a TL or the professor over.
+
+### `Commmit`ing your code
+
+- [ ] Be sure you're in the repository folder and type `git add .` to stage all of the files in your repository.
+* After this resolves, all new and changes files have been _staged_ for transmission to GitHub.
+- [ ] Type `git commit -m "Submitting code."` to `commit` your code with the helful message that you're submitting the code.
+- [ ] To transmit, type `git push origin master`.
+- [ ] When you've completed this step, message Professor Luman on our class [Slack](http://cmpsc100fall2019.slack.com).
+* There's a reward in it for you: the coveted `build passing` badge!
+
+You're done! Feel free to continue to work on your lab assignment if you haven't finished it, or get ahead with reading for Monday's class.
