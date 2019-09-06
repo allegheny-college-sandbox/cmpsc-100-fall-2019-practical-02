@@ -40,14 +40,14 @@ While you may not yet fully grasp all of the sections and what they mean, as we 
 * `*.java` files represent raw Java source code that is not compiled. When writing new Java programs, create your files as `*.java` files.
 - [ ] Open the file with the following code:
 ```java
-public class HelloWorld{
+public class HelloWorld {
 
 }
 ```
 * What does this code represent? What exactly are we declaring here?
 - [ ] In the space between the opening `{` and closing `}`, continue with the following code, indented by two spaces:
 ```java
-  public static void main(String[] args){
+  public static void main(String[] args) {
   
   }
 ```
@@ -59,8 +59,8 @@ public class HelloWorld{
 
 Your final program should look something like this:
 ```java
-public class HelloWorld{
-  public static void main(String[] args){
+public class HelloWorld {
+  public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
 }
