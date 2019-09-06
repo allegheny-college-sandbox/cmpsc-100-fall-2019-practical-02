@@ -1,5 +1,3 @@
-[![THE CODE MUST RUN](https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02.svg?branch=master)](https://travis-ci.com/allegheny-college-sandbox/cmpsc-100-fall-2019-practical-02)
-
 # CMPSC 100-03 Practical Session 2
 
 In this practical session, we focus on writing our initial Java program, the "Hello, World!"
@@ -18,6 +16,7 @@ In this practical session, we focus on writing our initial Java program, the "He
 * [Github](#github)
 * [Installing Java](#installing-java)
 * [The "Hello, World!" Java program](#the-helloworld-java-program)
+* [`commit`ing your code](#commiting-your-code)
 
 ## Slack
 
@@ -97,6 +96,7 @@ public class HelloWorld {
 * This code represents the next building block of a Java program. What is it called?
 - [ ] In between the opening `{` and closing `}` brackets of the `main` declaration, type the following statement, indented two additional spaces:
 ```java
+    // This is a comment. Does it display?
     System.out.println("Hello, World!");
 ```
 
@@ -104,6 +104,7 @@ Your final program should look something like this:
 ```java
 public class HelloWorld {
   public static void main(String[] args) {
+    // This is a comment. Does it display?
     System.out.println("Hello, World!");
   }
 }
@@ -116,6 +117,10 @@ public class HelloWorld {
 * Make a note of the files in the directory.
 - [ ] Type `java HelloWorld.java`
 * What happens? If you encounter an error, call a TL or the professor over to help figure out what is happening.
+- [ ] Did you expect anything else to display? What happened to the line:
+```java
+    // This is a comment. Does it display?
+```
 - [ ] Type `ls` to list the contents of the directory.
 * Did anything change?
 
@@ -130,6 +135,8 @@ This is because we used one side of the Java _compiler_ to run our program; it m
 
 There should be a new file called `HelloWorld.class`. This is Java _bytecode_, a "compiled" version of your program ready to run in what developers refer to as a "staging" environment.
 
+- [ ] Turn to page 39 in your textbook and call the professor over to have a brief discussion about what we see in the diagram at the top of the page.
+
 - [ ] You can test your binary by typing `java HelloWorld` in the terminal window.
 * If you receive the expected output, congratulations! You're done developing your code for this exercise. Proceed on.
 * If you encountered errors, call a TL or the professor over to discuss and figure out what is happening.
@@ -138,11 +145,18 @@ There should be a new file called `HelloWorld.class`. This is Java _bytecode_, a
 
 - [ ] Review the steps for creating the "Hello, World" program [above](#the-helloworld-java-program) and call a TL or the professor over.
 
-### `Commmit`ing your code
+### `commmit`ing your code
+
+- [ ] In the main folder of your repository, write a short 100-250 word reflection on your experience today in a file titled `reflection.md`.
+* This reflection may address:
+    * Areas where you still have questions
+    * Issues you encountered and how you solved them
+    * Is this your first time writing code at all? Have you written Java before? Depending on your experience with the practice of development, think about the level of difficulty here. What does it mean that this exercise was difficult or simple? How do you feel about the level of difficulty in this course so far?
 
 - [ ] Be sure you're in the repository folder and type `git add .` to stage all of the files in your repository.
 * After this resolves, all new and changes files have been _staged_ for transmission to GitHub.
 - [ ] Type `git commit -m "Submitting code."` to `commit` your code with the helful message that you're submitting the code.
+- [ ] Get Prof. Luman's attention before your do this step. We'll have a look at some more magic.
 - [ ] To transmit, type `git push origin master`.
 - [ ] When you've completed this step, message Professor Luman on our class [Slack](http://cmpsc100fall2019.slack.com).
 * There's a reward in it for you: the coveted `build passing` badge!
