@@ -14,6 +14,7 @@ In this practical session, we focus on writing our initial Java program, the "He
 
 * [Slack](#slack)
 * [Github](#github)
+* [Installing Java](#installing-java)
 * [The "Hello, World!" Java program](#the-helloworld-java-program)
 
 ## Slack
@@ -23,6 +24,46 @@ Before beginning the practical session, log into our shared [Slack](https://cmps
 ## GitHub
 
 An individualized version of this assignment is available on our GitHub Classroom platform. The link for accepting your individual repository is in the `#practicals` channel of our [Slack](#slack).
+
+## Installing Java
+
+### Windows
+
+- [ ] Windows users who have installed `chocolatey` can install Java using the `choco` package manager by opening a `cmd` (`Command Prompt`) window and typing:
+
+```
+choco install jdk8
+```
+
+* Note that the install may take some time, during which you may continue with writing your Java code [using the instructions below](#the-helloworld-java-program).
+
+- [ ] Once the install finishes, type `javac -version`
+* If the system responds with a line resembling `javac` follwed by a version number, the install completed successfully.
+
+### Mac
+
+- [ ] Check to see if you already have Java installed. In a terminal window, type `javac -version`.
+* If the system responds with a version number appearing similar to `java version` followed by a number, you already have Java and do not need to complete these steps. Continue with the [programming instructions below](#the-helloworld-java-program).
+
+#### homebrew
+
+- [ ] In a terminal window, install `homebrew`, a package manager which facilitates downloading applications for Mac. Type:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+- [ ] Next, update the package manager to the latest version/configuration settings by typing `brew update`
+
+- [ ] Install the `cask` extension for `homebrew` to make downloading packages just a bit easier. Type:
+
+```
+brew tap caskroom/cask
+```
+
+#### Java
+
+- [ ] To install Java, type `brew cask install java` and wait for the process to complete.
 
 ## General note on style
 
@@ -48,7 +89,7 @@ public class HelloWorld {
 - [ ] In the space between the opening `{` and closing `}`, continue with the following code, indented by two spaces:
 ```java
   public static void main(String[] args) {
-  
+
   }
 ```
 * This code represents the next building block of a Java program. What is it called?
@@ -59,9 +100,16 @@ public class HelloWorld {
 
 Your final program should look something like this:
 ```java
-public class HelloWorld {
+class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
 }
 ```
+
+### Running your program
+
+- [ ] In a terminal window, `cd` or navigate to the folder where you saved your work.
+- [ ] Type `java HelloWorld.java`
+* What happens? If you encounter an error, call a TL or the professor over to help figure out what is happening.
+- [ ] Type `ls` to list the contents of the directory.

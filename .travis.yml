@@ -1,3 +1,4 @@
 language: java
 sudo: false
-script: java HelloWorld.java
+script: javac HelloWorld.java
+script: java HelloWorld
